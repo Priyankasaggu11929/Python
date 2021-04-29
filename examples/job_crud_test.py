@@ -22,7 +22,7 @@ import yaml
 
 from kubernetes import client, config
 
-JOB_NAME = "pi"
+JOB_NAME = "pii"
 
 
 def create_job_object():
