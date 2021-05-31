@@ -17,6 +17,10 @@ Uses watch to print the stream of events from list namespaces and list pods.
 The script will wait for 10 events related to namespaces to occur within
 the `timeout_seconds` threshold and then move on to wait for another 10 events
 related to pods to occur within the `timeout_seconds` threshold.
+
+Refer to this document to understand server-side & client-side
+timeout settings for the watch request handler:
+https://github.com/Priyankasaggu11929/python/blob/documet-server-and-client-side-timeout2/examples/watch/server-side-and-client-side-timeout-settings.md
 """
 
 from kubernetes import client, config, watch
